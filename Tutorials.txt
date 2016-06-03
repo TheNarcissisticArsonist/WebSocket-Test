@@ -1,0 +1,5 @@
+https://websockets.readthedocs.io/en/stable/
+https://websockets.readthedocs.io/en/stable/intro.html
+https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications
+http://www.tutorialspoint.com/html5/html5_websocket.htm
+https://github.com/google/pywebsocket/wiki
