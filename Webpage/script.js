@@ -1,10 +1,6 @@
-var ws = new WebSocket("ws://127.0.0.1:12345/"),
-    messages = document.createElement('ul');
+var ws = new WebSocket("ws://127.0.0.1:12345/");
 ws.onmessage = function (event) {
-    var messages = document.getElementsByTagName('ul')[0],
-        message = document.createElement('li'),
-        content = document.createTextNode(event.data);
-    message.appendChild(content);
-    messages.appendChild(message);
+    var message = event.data;
+    document.body.innerHTML = message + "<br>" + document.body.innerHTML;
 };
 document.body.appendChild(messages);

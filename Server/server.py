@@ -11,7 +11,7 @@ async def time(websocket, path):
     while True:
         now = datetime.datetime.utcnow().isoformat() + 'Z'
         await websocket.send(now)
-        await asyncio.sleep(1)
+        await asyncio.sleep(0.01)
 
 start_server = websockets.serve(time, '127.0.0.1', 12345)
 
