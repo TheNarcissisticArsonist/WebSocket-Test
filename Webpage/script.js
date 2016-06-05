@@ -3,4 +3,3 @@ ws.onmessage = function (event) {
     var message = event.data;
     document.body.innerHTML = message + "<br>" + document.body.innerHTML;
 };
-document.body.appendChild(messages);
