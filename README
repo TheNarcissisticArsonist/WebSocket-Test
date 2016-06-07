@@ -6,5 +6,5 @@ See comments in the code for details on how it works.
 INSTRUCTIONS *These assume you have everything in one folder"
 1) Make sure you have the necessary code and packages installed. This program requires python 3.5 and the asyncio, websockets, and datetime packages.
 2) Open terminal, and navigate to the WebSocket-Test folder.
-3) Enter the following command: cd ./Webpage; printf "\n\nGo to the following link:\nfile://"; link=`pwd`; printf "$link"; printf "/index.html\n\n\nStarting websocket server.\nPress control+c to exit. Do not use control+c to copy!"; cd ../Server; python3 server.py;
+3) Run server.sh with the following command: bash server.sh
 4) Copy and paste the URL from the command into a web browser window, and load the page. The program is known to work in the most recent versions of Google Chrome and Firefox.
