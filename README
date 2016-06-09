@@ -1,10 +1,16 @@
 This is a quick test of a WebSocket connection. The server will send the current UTC timestamp every hundredth of a second, and the webpage will read it and prepend it onto the webpage.
+
+Use the version in 2.7 for Python 2.7, and the version in 3.5 for Python 3.5.
+
 Honestly, it's pretty basic. All it does is send a preset message from the server to the webpage. But it gets the job done, and I could put in any message I want, at any time I want.
+
 See comments in the code for details on how it works.
 
 
-INSTRUCTIONS *These assume you have everything in one folder"
-1) Make sure you have the necessary code and packages installed. This program requires python 3.5 and the asyncio, websockets, and datetime packages.
-2) Open terminal, and navigate to the WebSocket-Test folder.
-3) Run server.sh with the following command: bash server.sh
-4) Copy and paste the URL from the command into a web browser window, and load the page. The program is known to work in the most recent versions of Google Chrome and Firefox.
+INSTRUCTIONS
+1) Download using git clone or as a zip file.
+2) Make sure you have the necessary code and packages installed. For python 3.5, this requires the asyncio, websockets, and datetime packages. For python 2.7, this requires the websocket package.
+3) Open terminal, and navigate to the WebSocket-Test folder.
+4) Navigate to your chosen python version's subfolder.
+5) Run server.sh with the following command: bash server.sh
+6) Copy and paste the URL from the command into a web browser window, and load the page. The program is known to work in the most recent versions of Google Chrome and Firefox.
